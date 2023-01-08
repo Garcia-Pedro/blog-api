@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 from src.infra.requests.editor import editor_route
-
+from src.infra.requests.visitor import visitor_route
 
 # API main
 api = FastAPI(title="Blog API", description="API for the blog angola Comunica")
@@ -13,4 +13,4 @@ api.add_middleware(CORSMiddleware,
                         allow_headers=["*"])
 
 api.include_router(editor_route,prefix="/blog",tags=['editor'])
-
+api.include_router(visitor_route,prefix="/blog",tags=['visitor'])

@@ -7,4 +7,4 @@ mysql_db_name="mysql+pymysql://root:%s@localhost/blogAPI"%(quote_plus('frederico
 #database sqlite
 sqlite_file_name="blog_angocomunica.db"
 sql_url=f"sqlite:///{sqlite_file_name}"
-engine=create_engine(mysql_db_name,echo=True)
+engine=create_engine(sql_url,echo=True)
