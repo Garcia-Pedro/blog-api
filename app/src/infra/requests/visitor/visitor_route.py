@@ -1,6 +1,6 @@
 from typing import Optional
 from fastapi import APIRouter
-from src.interface import FastAPIAdapter
+from app.src.interface import FastAPIAdapter
 
 
 visitor_route=APIRouter(prefix="/global",tags=['visitor'])

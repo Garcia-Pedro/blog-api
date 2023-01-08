@@ -2,8 +2,8 @@ import io
 from app.src.infra.db import engine
 from app.src.infra.models import Editor
 from app.src.infra.feadback import MSResponse
-from app.sqlmodel import Session, select
-from app.sqlalchemy.orm import load_only
+from sqlmodel import Session, select
+from sqlalchemy.orm import load_only
 
 
 msresponses=MSResponse

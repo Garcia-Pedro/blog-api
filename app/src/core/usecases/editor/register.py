@@ -2,7 +2,7 @@ from app.src.infra.db import engine
 from app.src.infra.models import Editor
 import uuid
 from app.src.infra.feadback import MSResponse
-from app.sqlmodel import Session
+from sqlmodel import Session
 import bcrypt
 
 #responses

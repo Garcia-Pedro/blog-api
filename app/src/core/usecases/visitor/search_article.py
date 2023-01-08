@@ -2,8 +2,8 @@ from unittest import result
 from app.src.infra.db import engine
 from app.src.infra.models import PostArticle
 from app.src.infra.feadback import MSResponse
-from app.sqlmodel import Session, select,col
-from app.sqlalchemy.orm import load_only
+from sqlmodel import Session, select,col
+from sqlalchemy.orm import load_only
 
 
 msresponses=MSResponse
