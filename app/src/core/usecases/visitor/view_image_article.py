@@ -1,7 +1,7 @@
 import io
-from src.infra.db import engine
-from src.infra.models import PostArticle
-from src.infra.feadback import MSResponse
+from app.src.infra.db import engine
+from app.src.infra.models import PostArticle
+from app.src.infra.feadback import MSResponse
 from sqlmodel import Session, select
 from sqlalchemy.orm import load_only
 

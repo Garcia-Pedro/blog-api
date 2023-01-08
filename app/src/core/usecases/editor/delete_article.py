@@ -1,7 +1,7 @@
-from src.infra.db import engine
+from app.src.infra.db import engine
 from sqlmodel import Session, select
-from src.infra.models import PostArticle
-from src.infra.feadback import MSResponse
+from app.src.infra.models import PostArticle
+from app.src.infra.feadback import MSResponse
 
 
 msresponse=MSResponse

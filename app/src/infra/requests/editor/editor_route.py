@@ -1,9 +1,9 @@
 from fastapi import APIRouter,UploadFile,File
 from starlette.requests import Request
-from src.interface import FastAPIAdapter
+from app.src.interface import FastAPIAdapter
 from fastapi.exceptions import HTTPException
 from fastapi.security.oauth2 import OAuth2PasswordBearer
-from src.infra.requests.depends import EditorToken
+from app.src.infra.requests.depends import EditorToken
 from fastapi import Depends
 
 #api route editor

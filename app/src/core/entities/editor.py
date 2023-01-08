@@ -1,4 +1,4 @@
-from src.core.usecases import *
+from app.src.core.usecases import *
 
 class EntityEditor:
     """_summary_

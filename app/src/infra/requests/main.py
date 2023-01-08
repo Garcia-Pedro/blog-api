@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
-from src.infra.requests.editor import editor_route
-from src.infra.requests.visitor import visitor_route
+from app.src.infra.requests.editor import editor_route
+from app.src.infra.requests.visitor import visitor_route
 
 # API main
 api = FastAPI(title="Blog API", description="API for the blog angola Comunica")

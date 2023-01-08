@@ -1,8 +1,8 @@
-from src.infra.db import engine
-from src.infra.models import Editor
+from app.src.infra.db import engine
+from app.src.infra.models import Editor
 import uuid
-from src.infra.feadback import MSResponse
-from sqlmodel import Session
+from app.src.infra.feadback import MSResponse
+from app.sqlmodel import Session
 import bcrypt
 
 #responses

@@ -1,10 +1,10 @@
 from bcrypt import checkpw
 import jwt
 
-from src.infra.db import engine
+from app.src.infra.db import engine
 from sqlmodel import Session, select
-from src.infra.models import Editor
-from src.infra.feadback import MSResponse
+from app.src.infra.models import Editor
+from app.src.infra.feadback import MSResponse
 
 #constants
 SECRET="9c1f5e6705012fdc76df5717dfb979a23d7b66f48ee24662f8e4f710730fd6f1"

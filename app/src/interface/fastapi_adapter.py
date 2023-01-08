@@ -1,6 +1,6 @@
 from click import edit
-from src.core.entities import EntityEditor
-from src.core.entities import VisitorEntity
+from app.src.core.entities import EntityEditor
+from app.src.core.entities import VisitorEntity
 
 editor=EntityEditor()
 visitor=VisitorEntity()

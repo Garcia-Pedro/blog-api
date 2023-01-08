@@ -1,8 +1,8 @@
-from src.infra.db import engine
-from src.infra.models import PostArticle
+from app.src.infra.db import engine
+from app.src.infra.models import PostArticle
 from sqlmodel import Session
 import uuid
-from src.infra.feadback import MSResponse
+from app.src.infra.feadback import MSResponse
 
 
 #responses
