@@ -1,4 +1,4 @@
-from api.src.infra.requests import api
+from app.src.infra.requests import api
 from uvicorn import run
 
 if __name__=="__main__":
